@@ -1,0 +1,22 @@
+{
+    "Bells": {
+        "song_string": "gbad.gabg",
+        "bpm": 60
+    },
+    "Hot Cross Buns": {
+        "song_string": "e.d.c...e.d.c...ccccdddde.d.c",
+        "bpm": 180
+    },
+    "Cutoff demo": {
+        "song_string": "C.g.exc",
+        "bpm": 120
+    },
+    "Fight Song": {
+        "song_string": "c.e.f,f,gc.e.f,f,gc.e.f,f,gCCC.ccc.x",
+        "bpm": 180
+    },
+    "Tetris": {
+        "song_string": "a.efg.fed.dfa.gfe.efg.a.f.d.d...x",
+        "bpm": 180
+    }
+}
