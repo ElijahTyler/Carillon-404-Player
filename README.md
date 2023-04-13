@@ -29,4 +29,5 @@ By passing the `--bank` argument, you can play songs you've previously saved. Yo
 1. Open Terminal in the project directory and type `python carillon.py [--write|--bank|--help]`
 2. ???
 3. profit
+
 Have fun! There's no limit to the song length or the number of songs in the bank, so feel free to go absolutely monkey with this!
