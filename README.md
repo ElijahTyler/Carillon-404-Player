@@ -1,6 +1,10 @@
 # Carillon 404 Player
 A goofy little carillon player for oakland.edu's 404 page!
 
+# A little about Elliott Tower
+
+Oakland University is home to Elliott Tower, a 151-foot carillon tower completed in 2014. It hosts 49 bells, ranging a full 4 octaves from C2 to C6. This clock tower is a staple of the ambient sound of Oakland's campus, ringing on every quarter hour. Oakland University offers a carillon class, where students may learn to play the carillon in the tower. For those of us without the schedule space to take the class, however, Oakland's 404 page on the oakland.edu website offers a chance to play the carillon from the convenience of our screen. We are graced with a full diatonic C scale ranging from C3-C4.
+
 ## Installation
 1. Download the .zip at https://github.com/ElijahTyler/Carillon-404-Player.git
 2. Extract the .zip file wherever you prefer
