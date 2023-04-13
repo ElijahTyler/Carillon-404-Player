@@ -14,7 +14,7 @@ A goofy little carillon player for oakland.edu's 404 page!
 You can play a default bell chime by passing no arguments when you run the file.
 
 - Write your own song
-- 
+
 By passing the `--write` argument, you can write your own song to play! Use the 'cdefgabC.x' characters to write your song, and then set the BPM between 1 and 200.
   - 'cdefgabC' covers one full C major scale
   - '.' is one note of rest
