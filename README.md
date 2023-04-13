@@ -6,12 +6,11 @@ A goofy little carillon player for oakland.edu's 404 page!
 Oakland University is home to Elliott Tower, a 151-foot carillon tower completed in 2014. It hosts 49 bells, ranging a full 4 octaves from C2 to C6. This clock tower is a staple of the ambient sound of Oakland's campus, ringing on every quarter hour. Oakland University offers a carillon class, where students may learn to play the carillon in the tower. For those of us without the schedule space to take the class, however, Oakland's 404 page on the oakland.edu website offers a chance to play the carillon from the convenience of our screen. We are graced with a full diatonic C scale ranging from C3-C4.
 
 ## Installation
-0. Ensure you have Firefox installed on your computer
-1. Download the .zip at https://github.com/ElijahTyler/Carillon-404-Player.git
-2. Extract the .zip file wherever you prefer
-3. Open Terminal in the project directory and type `python -m pip install -r requirements.txt`
-4. Download geckodriver at https://github.com/mozilla/geckodriver/releases
-5. Move the `geckodriver` (Linux) or `geckodriver.exe` (Windows) file into the project directory
+0. Ensure you have Firefox installed to the default location
+1. Download and extract the .zip at https://github.com/ElijahTyler/Carillon-404-Player.git
+2. Open Terminal in the project directory and type `python -m pip install -r requirements.txt`
+3. Download geckodriver at https://github.com/mozilla/geckodriver/releases
+4. Move the `geckodriver` (Linux) or `geckodriver.exe` (Windows) file into the project directory
 
 ### Features
 - Play a default bell chime : You can play a default bell chime by passing no arguments when you run the file.
