@@ -60,7 +60,7 @@ def main(song_string="gbad.gabg.bgad.gabg.c..c", bpm=60): # it's 2 o'clock somew
     driver.close()
 
 if __name__ == "__main__":
-    print(f"\n{'CARILLON BELL PLAYER':-^54}")
+    print(f"\n{'CARILLON BELL PLAYER':-^68}")
 
     if len(sys.argv) > 1:
         match sys.argv[1]:

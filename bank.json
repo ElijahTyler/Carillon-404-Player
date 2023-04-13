@@ -2,5 +2,9 @@
     "Bells": {
         "song_string": "gbad.gabg.bgad.gabg.c..c..c",
         "bpm": 60
+    },
+    "Megalovania": {
+        "song_string": "ccC.gx",
+        "bpm": 200
     }
 }
