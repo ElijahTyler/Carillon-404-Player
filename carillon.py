@@ -24,7 +24,7 @@ def init_firefox(headless=False):
     driver = webdriver.Firefox(options = opts, executable_path = driver_executable)
     return driver
 
-def main(song_string="gbad.gabg.bgad.gabg.c..c", bpm=60): # it's 2 o'clock somewhere in the world
+def main(song_string="gbad.gabg", bpm=60): # it's 0 o'clock somewhere in the world
     print("Loading Firefox...")
     driver = init_firefox(headless=False)
     print("Loading website...")
@@ -49,6 +49,8 @@ def main(song_string="gbad.gabg.bgad.gabg.c..c", bpm=60): # it's 2 o'clock somew
     for letter in song_string:
         if letter == '.':
             time.sleep(0.3)
+        elif letter == ',':
+            time.sleep(0.15)
         elif letter == 'x':
             driver.close()
             quit()
@@ -60,16 +62,15 @@ def main(song_string="gbad.gabg.bgad.gabg.c..c", bpm=60): # it's 2 o'clock somew
     driver.close()
 
 if __name__ == "__main__":
-    print(f"\n{'CARILLON BELL PLAYER':-^68}")
+    print(f"\n{'CARILLON BELL PLAYER':-^60}")
+    print(f"{'by Eli Sepulveda':-^60}")
 
     if len(sys.argv) > 1:
         match sys.argv[1]:
             case '--write':
                 # dudes will be like "this song sucks"
                 # bruh you wrote the string :skull:
-                print("Write a song by using the letters cdefgabC (. to rest, x to cut off)")
-                # print("Example: The Lick - defge.cd")
-                song_string = input("Enter string: ")
+                song_string = input("Enter song string: ")
 
                 print("Set bpm within the bounds (0, 200]")
                 bpm = int(input("Enter BPM: "))
