@@ -18,6 +18,7 @@ def init_firefox(headless=False):
     opts.add_argument("--start-maximized")
 
     if platform == "win32":
+        opts.binary_location = r'C:\Program Files\Mozilla Firefox\firefox.exe'
         driver_executable = os.path.join(maindir, 'geckodriver.exe')
     elif platform == "linux" or platform == "linux2":
         driver_executable = os.path.join(maindir, 'geckodriver')
