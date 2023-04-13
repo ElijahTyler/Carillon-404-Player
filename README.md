@@ -10,7 +10,7 @@ Oakland University is home to Elliott Tower, a 151-foot carillon tower completed
 2. Extract the .zip file wherever you prefer
 3. Open Terminal in the project directory and type `python -m pip install -r requirements.txt`
 4. Download geckodriver at https://github.com/mozilla/geckodriver/releases
-5. move the `geckodriver` (Linux) or `geckodriver.exe` (Windows) file into the project directory
+5. Move the `geckodriver` (Linux) or `geckodriver.exe` (Windows) file into the project directory
 
 ### Features
 - Play a default bell chime : You can play a default bell chime by passing no arguments when you run the file.
