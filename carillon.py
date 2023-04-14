@@ -76,9 +76,8 @@ if __name__ == "__main__":
 
                 if song_string[0] == 'r':
                     random_length = int(song_string[1:])
-                    song_string = ''
-                    for i in range(random_length):
-                        song_string += random.choice(['.','c','d','e','f','g','a','b','C'])
+                    song_string = [random.choice(['.', ',','c','d','e','f','g','a','b','C']) for i in range(random_length)]
+                    song_string = ''.join(song_string)
                     
                     bpm = 200
                 else:
