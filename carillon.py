@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 
 import os, sys, json
+import random
 from sys import platform
 import time
 
@@ -72,6 +73,12 @@ if __name__ == "__main__":
                 # dudes will be like "this song sucks"
                 # bruh you wrote the string :skull:
                 song_string = input("Enter song string: ")
+
+                if song_string[0] == 'r':
+                    random_length = int(song_string[1:])
+                    song_string = ''
+                    for i in range(random_length):
+                        song_string += random.choice(['c','d','e','f','g','a','b','C'])
 
                 print("Set bpm within the bounds (0, 200]")
                 bpm = int(input("Enter BPM: "))
