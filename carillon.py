@@ -78,10 +78,12 @@ if __name__ == "__main__":
                     random_length = int(song_string[1:])
                     song_string = ''
                     for i in range(random_length):
-                        song_string += random.choice(['c','d','e','f','g','a','b','C'])
-
-                print("Set bpm within the bounds (0, 200]")
-                bpm = int(input("Enter BPM: "))
+                        song_string += random.choice(['.','c','d','e','f','g','a','b','C'])
+                    
+                    bpm = 200
+                else:
+                    print("Set bpm within the bounds (0, 200]")
+                    bpm = int(input("Enter BPM: "))
 
                 print("Save song to song bank? (y/n)")
                 if input().lower() == 'y':
