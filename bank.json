@@ -18,5 +18,9 @@
     "Tetris": {
         "song_string": "a.efg.fed.dfa.gfe.efg.a.f.d.d...x",
         "bpm": 180
+    },
+    "Five Nights At Freddy's": {
+        "song_string": ".CbagCeagfedeac.x",
+        "bpm": 190
     }
 }
